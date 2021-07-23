@@ -6,7 +6,7 @@ from MightyMusic.config import DURATION_LIMIT
 from MightyMusic.helpers.errors import DurationLimitError
 
 ydl_opts = {
-    "format": "141/bestaudio[ext=m4a]",
+    "format": "bestaudio[ext=m4a]",
     "geo-bypass": True,
     "nocheckcertificate": True,
     "outtmpl": "downloads/%(id)s.%(ext)s",
